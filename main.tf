@@ -1,7 +1,7 @@
 
 
 resource "azurerm_resource_group" "rg"{
-    name = "diskrg"
+    name = "diskrg01"
     location = "west US"
     tags = {
         env = "test"
